@@ -1,0 +1,58 @@
+/*
+Creator: michael rodriguez
+Date Created: 12/8/20
+Date Last Modified: 12/9/20
+*/
+
+body { background-color: #171A1C;
+color: white ;
+font-family: arial, helvetica, sans-serif;
+border: lightblue;
+}
+header, nav,  {
+background-color:#171A1C;
+}
+footer {
+  color: green;
+}
+header {
+  border : 5px dashed green;
+}
+experience {
+align-content: center;
+}
+#portfolio {
+text-align: center;
+}
+.clear-float {
+  clear : both;
+}
+.hobbie-left {
+float: auto;
+}
+
+
+
+
+
+
+
+a:link {
+color: red;
+}
+/* visited link */
+a:visited {
+  color: #46D246;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #46D246;
+}
+    img {
+  float: center;
+}
