@@ -15,9 +15,29 @@ body {
     color: #fef9ff;
     border: thin solid #0d1f2d;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     display:block;
     width: 100%;
+  }
+    table {
+      width: 100%;
+     margin: auto;
+    }
+    tr { height: 100%
+    }
+    th{
+      background color : red;
+      color: #f2eded;
+    }
+    tr:nth-child(odd){
+      color: #red;
+    }
+    tr:nth-child(even) {
+      background: brown;
+    }
+    tbody tr:nth-child(odd){
+    background-color:red;
+    }
 }
 a:link {
 color: white;
