@@ -6,9 +6,10 @@ Date Created: 12/04/19
 Most recent revision:
 Updated links + created semantic block elements
 -->
+
 <html lang= "en">
 <head>
-  <title>Michaels portfolio</title>
+  <title>Michaels portfolio </title>
 <style>
 
 #experience {
@@ -16,11 +17,8 @@ border:dashed darkgreen;
 margin:20px
  float: auto;
 }
-caption {
-font-weight: bold;
-font-size: 1.2em;
-margin-bottom: 10px
-}
+<div class = "EmployementHistory">
+
 table, th, td {
 border: 1px solid #0d1f2d;
 border-collapse: collapse;
@@ -45,33 +43,39 @@ tbody tr:nth-child(odd){
 background-color:red;
 }
 </style>
+<!-- StyleSheet linked below -->
 <link href ="styles/stylemain.css" rel="stylesheet" type="text/css" />
+<!-- Fonts below -->
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
 <body>
   <main>
     <header>
       <h1 id="portfolio"> My Portfolio </h1>
 
-
     </header>
-
     <nav class="border">
-      <p><a href="projects.html">Projects</a></p>
-      <p><a href="contact.html">Contact Me</a></p>
-      <p><a href="testimonials.html">Testimonials</a></p>
+      <br>
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="projects.html">Projects</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="contact.html">Contact Me</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="testimonials.html">Testimonials</a>&nbsp; &nbsp; &nbsp; &nbsp;
     </nav>
 
   <section>
-    <article class="border id=about">
-      <h2><em> About me</em></h2>
-      <img src ="https://i.ibb.co/Kx11QxJ/5d7f0f06a.png" alt="selfie" width="125">
-      <p> Student at Laguardia Community College.
+    <div class=about>
+      <h2 id="aboutTitle"><em> About me</em></h2>
+      <img id="selfie" src ="https://i.ibb.co/Kx11QxJ/5d7f0f06a.png" alt="selfie" width="125">
+      <p id ="caption"> Student at Laguardia Community College.
      <br>Learning full stack development
-   </p>
+   </div>
  </article>
  <article id="experience">
    <h2><em>Past Experiences</em></h2>
+    <div id = "tableBox">
    <table>
-       <caption>Employment History</caption>
+
        <thead>
        <tr>
            <th>Years of Employment</th>
@@ -97,11 +101,11 @@ background-color:red;
        </tr>
      </tbody>
    </table>
+</div>
 </article>
-
-<article id="hobbies"> <!-- This is the third chunk inside the section element. -->
+<div id= "hobbies" >
+<article> <!-- This is the third chunk inside the section element. -->
     <h2><em>Hobbies</em></h2>
-<div class= "hobbie-left">
     <ul>
         <li>Websites I Read </li>
         <ol>
@@ -131,7 +135,6 @@ background-color:red;
         </ul>
     </ul>
   </div>
-  <div class= "clear-float"></div>
 
 </article>
 </section>

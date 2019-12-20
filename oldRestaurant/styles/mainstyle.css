@@ -1,10 +1,5 @@
-.jumbotron{
-  text-align:center;
-}
 body {
    background-color: #fff5d0;
-
-
 }
   header {
     background-color: brown;
@@ -14,39 +9,19 @@ body {
  }
   footer {
    background-color: brown;
-   text-align: center;
    }
   nav a {
-    background-color: orange;
+    background-color: red;
     color: #fef9ff;
-    /* text-align: center;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: left;
     display:block;
     width: 100%;
-    padding:10px;
-    margin-left: center;
-    margin-right: center; */
-
-  }
-  /* .carousel-inner {
-  width:400px;
-  height:500px
-}
-  .carousel-item {
-    width:400px;
-    height:500px */
-  }
-  .carousel {
-    width:15%;
-    height:20%;
-  }
-  /* .carousel-item img {
-    height:25rem;
-    width:10rem: */
   }
     table {
       width: 100%;
      margin: auto;
-
     }
     tr { height: 100%
     }
@@ -62,9 +37,6 @@ body {
     }
     tbody tr:nth-child(odd){
     background-color:red;
-    }
-    .avatar {
-      text-align:center;
     }
 }
 a:link {
@@ -87,5 +59,5 @@ a:active {
   float: center;
 }
 header {
-  <center>
+  <center> 
 }

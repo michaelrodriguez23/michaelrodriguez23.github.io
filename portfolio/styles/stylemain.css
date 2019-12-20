@@ -6,9 +6,11 @@ Date Last Modified: 12/9/20
 
 body { background-color: #171A1C;
 color: white ;
-font-family: arial, helvetica, sans-serif;
-border: lightblue;
+font-family: helvitca;
+max-width: 900px;
+margin: 0 auto;
 }
+
 header, nav,  {
 background-color:#171A1C;
 }
@@ -16,24 +18,59 @@ footer {
   color: green;
 }
 header {
-  border : 5px dashed green;
+  border : 1px dashed green;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'Bungee Shade', cursive;
+  color: red;
 }
-experience {
-align-content: center;
+
+#caption {
+color:white;
+font-family: helvitca;
 }
-#portfolio {
+
+table {
+color:white;
+font-family: helvitca;
+width: 100%;
+
+}
+#tableBox {
 text-align: center;
+padding: 10px
+
 }
-.clear-float {
-  clear : both;
+.about  {
+  font-size: 1.2em;
+  font-family: 'Shadows Into Light', cursive;
+  color: hotpink;
+  text-align: center;
 }
-.hobbie-left {
-float: auto;
+/* past expierience block */
+#experience {
+text-align: center;
+font-family: fantasy;
+color: gold;
+padding-bottom: 100px
+}
+#EmployementHistory {
+  font-weight: lighter;
+  font-size: 10em;
+  margin-bottom: 10px
 }
 
+#portfolio {
+font-size: 2em;
+text-align: center;
 
+}
 
-
+hobbies {
+align-items: center;
+border: 2px dashed green;
+color: blue; 
+}
 
 
 
@@ -52,7 +89,4 @@ a:hover {
 /* selected link */
 a:active {
   color: #46D246;
-}
-    img {
-  float: center;
 }
