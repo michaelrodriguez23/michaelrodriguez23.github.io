@@ -1,83 +1,200 @@
-<!DOCTYPE html>
 <!--
-    Name: Your Name
-    Date Created: Today's date
-    Most recent revision:
+  Name: Michael Elijah Rodriguez
+  Date Created: 12.31.19 Last day of the fucking year :)
+  Most recent revision: Adding HTML SUBMIT FORM from Click to add items
 -->
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Page Title</title>
-        <style>
-          </style>
-          <link href ="styles/mainstyle.css" rel="stylesheet" type="text/css" />
-    </head>
+<head>
+  <title>Page Title</title>
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href ="styles/mainstyle.css" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <script type="text/javascript" src="contact.js"></script>
+  <body>
+  <!-- JUMBOTRON -->
+  <div class="jumbotron jumbotron-fluid" style="background: brown;">
+  <div class ="container" class="jumbo">
+      <img src = http://www.scarrspizza.com/imgs/ScarrsPizza_Logo.png width=300 >
+      <img id="flag" src = https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmanhattanwomensclub.files.wordpress.com%2F2013%2F06%2Fnyc-flag.jpg&f=1&nofb=1 width =100 >
+  <br>
+        <h5 id="leadText" alt=""class="lead"> New Midtown Location Coming Soon <h5>
+  <!-- NAVBAR -->
+  <div>
+  <nav class="navbar sticky-top navbar-expand-xxl navbar-light ">
+    <a class="navbar-brand" href="2"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <!-- HAMBURGER NAV DROP DOWN-->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
+      </li>
 
-    <body>
-        <header>
-            <h1>Contact Me sss</h1>
-        </header>
-
-        <nav>
-          <a href = "scarspizza@gmail.com" target = "_blank"> home</a>
-          <br>
-          <a href = "mailto:scarspizza@gmail.com" target = "_blank"> email </a>
-            <br>
-
-
-
-            <a href = "mailto:scarspizza@gmail.com" target = "_blank"> catering</a>
-              <br>
-
-      <a href = "https://www.trycaviar.com/m/scarrs-pizza-14552?_branch_match_id=730981825850041721&cav_medium=widget&cav_source=mer-rKIFpkdC4EwcusCSj7IndQ&how=delivery&merchant_token=mer-rKIFpkdC4EwcusCSj7IndQ&utm_campaign=link&utm_content=14552&utm_medium=restaurant_partners&utm_source=widget&utm_term=manhattan target = "_blank"> caviar</a>
-        <br>
-        <hr / >
-        <hr2> information request  <hr2>
-
-          <br>
-          <br>
-
-          <label for="firstName">First Name:</label> <br />
-<input type="text" id="firstName" name="firstName"> <br />
-<label for="lastName">Last Name:</label><br />
-<input type="text" id="lastName" name="lastName"> <br />
-<label for="phone">Phone Number:</label><br />
-<input type="text" id="phone" name="phone"> <br />
-          <form action="submit.html" method="POST">
-    <br>
-    <label for="contact">Best time to call:</label><br />
-<select id="contact" name="contact">
-<option value="default" selected>--Select One--</option>
-<option value="morning">Morning (8AM to 12PM Eastern)</option>
-<option value="afternoon">Afternoon (12PM to 5PM Eastern)</option>
-<option value="evening">Evening (5PM to 8PM Eastern)</option>
+      <!-- NAV BAR TABS -->
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:scarspizza@gmail.com">Email<i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bootstrap.html">SlideShow<i class="fa fa-picture-o" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/scarrspizza/?hl=en">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="merchandise.html">Shop "Bootstrap grid"<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Catering Form<i class="fa fa-cutlery" aria-hidden="true"></i></a>
+      </li>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
+</div>
+  <br>
+  <!-- Contact us Form -->
+  <!-- <form action="#" method="post" onsubmit="validation();">
+    <label for ="nameText">Name</label>
+    <input type="name" name="name" id="name">
+    <label for ="nameText">Address</label>
+    <input type="address" name="address" id="address">
+      <label for ="nameText">Apt #</label>
+    <input type="apt" name="apt" id="apt">
+      <label for ="nameText">Phone Number</label>
+    <input type="phoneNumber" name="phoneNumber" id="phoneNumber">
+    <input type="submit" name="submit" id="submit">
+  </form> -->
+  <table>
+    <form action="#" method="post" onsubmit="validation();">
+     <tr><td>Name</td><td><input type="name" name="name" id="name"></td></tr>
+     <tr><td>Address</td><td><input type="address" name="address" id="address"></td></tr>
+     <tr><td>Apt</td><td><input type="apt" name="apt" id="apt"></td></tr>
+     <tr><td>Phone Number</td><td><input type="phoneNumber" name="phoneNumber" id="phoneNumber"></td></tr>
+  </table>
+  <input type="submit" name="submit" id="submit">
+</div>
+</form>
+Reason for contact:<br />
+<input type="radio" name="answer" value="YES" checked /> To place a reservation<br />
+<input type="radio" name="answer" value="NO" />Cancel Reservation<br />
+Other: Reason: <input type="string" name="reason" /><br />
+Which Locaion? <br>
+<select name="borough">
+    <option value="LES">LES</option>
+    <option value="Brooklyn">Brooklyn</option>
+    <option value="Midtown">Midtown</option>
 </select>
-<fieldset>
-<legend>I am interested in (check all that apply)</legend><br />
-<input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
-<label for="frontEnd">Front End Web Development</label><br />
-<input type="checkbox" id="backEnd" name="interest" value="backEnd">
-<label for="backEnd">Back End Web Development</label>
-<input type="checkbox" id="database" name="interest" value="database">
-<label for="database">Database Design</label><br />
-</fieldset>
-<fieldset>
-<legend>I have filled in the client questionnaire form:</legend><br />
-<input type="radio" id="choice1" name="questionnaire" value="yes">
-<label for="choice1">Yes</label><br />
-<input type="radio" id="choice2" name="questionnaire" value="no">
-<label for="choice2">No</label><br />
-</fieldset>
-<label for="info">Additional Information</label><br />
-<textarea id="info" name="info"></textarea>
-<input type="submit" name="submit" value="Submit">
+<br><br><br><br>
+</form>
+</form>
 
 
-        </nav>
 
 
-        <footer>
-          <!-- The footer is a block at the bottom of the page. -->
-             <p>&copy; 2020 Michael Rodriguez. All rights reserved.</p>
-        </footer>
-    </body>
+
+
+
+
+
+<!-- <div class="container-fluid container">
+  <h1> Contact Form </h1>
+  <form name="contactForm" action="#" method="post" onsubmit="return validation();" class="form-inline">
+    <div class="form-group">
+      <label for ="nameText">Name</label>
+      <input type ="name" class="form-control" id="name">
+      <label for ="addressText">Address</label>
+      <input type ="address" class="form-control" id="address" >
+      <label for ="aptText">Apt #</label>
+      <input type ="apartment" class="form-control" id="apartment">
+      <label for ="phoneNumberText">Phone Number</label>
+      <input type="phoneNumber" class="form-control" id="phoneNumber"  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Menu Food -->
+  <!-- <hr/>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <p><strong>Beverages</strong></p>
+          </td>
+        </tr>
+        <tr>
+        <td>
+          <p>Root Beer</p>
+        </td>
+        <td>
+          <p>$3.00</p>
+        </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Bottled Water</p>
+          </td>
+          <td>
+            <p>$1.25</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Lemonades </p>
+          </td>
+          <td>
+            <p>$1.00</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Iced Tea</p>
+          </td>
+          <td>
+            <p>$1.25</p>
+          </td>
+          </tr>
+        </tbody>
+      </table> -->
+    </div>
+  </div>
+</body>
+  <footer>
+    <footer>
+      <p>© 2019 Scarrs Pizza Address: 22 Orchard St, New York, NY 10002
+
+          Phone: +1 212 334 3481
+
+          Hours: 12PM–11PM
+      </p>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </footer>
 </html>
