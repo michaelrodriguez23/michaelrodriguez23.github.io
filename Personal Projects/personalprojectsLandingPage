@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Name: Michael Rodriguez
+Date Created: 1/05/20
+Most recent revision:
+-->
+<html>
+<html lang ="en">
+<head>
+  <title>
+  Elijah Landing Page
+  </title>
+<body bgcolor=#CD000F>
+  <style>
+  </style>
+  <h1>
+  <font color=##F207 </font><h1>,+`michael elijah,+`
+    <h1>
+    <h2>Michael<br>Rodriguez<h3>
+      <h5>Videos<h5>
+      <h5>internet <h5>
+      <h6>Global Crisis Quiz 01.07.2020 <h6>
+      <h6>Elijas_Embryo:<br>Beats_to_Dismantle_the_State_to 00.00.20
+      <h6>
+      <h6> Sipping_on_Backwash.mp4 "12:32" 08.20.19
+      <h6>
+      <h6>Corpus_TV_Herd_You.mp4 <h6>
+
+
+  <h6>Sade_Remix<h6>
+<main>
+   <audio autoplay loop controls>
+     <source src="sound.ogg" type="audio/ogg">
+     <source src="last song sade.WAV" type="audio/mpeg">
+     No audio support.
+  </audio>
+<table>
+    <thead>
+      <tr>
+          <th> </th>
+</body>
+</main>
+<footer>
+</footer>
+</html>

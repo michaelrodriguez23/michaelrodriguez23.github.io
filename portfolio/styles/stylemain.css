@@ -3,42 +3,50 @@ Creator: michael rodriguez
 Date Created: 12/8/20
 Date Last Modified: 12/9/20
 */
-
-body { background-color: #171A1C;
+body { background-color: 	white;
 color: white ;
-font-family: helvitca;
+font-family: monospace;
 max-width: 900px;
 margin: 0 auto;
+padding: 00px;
 }
-
 header, nav,  {
-background-color:#171A1C;
+background-color: #white;
 }
 footer {
-  color: green;
+  color: royalblue;
+    font-size: 0.9em;
+    text-align: right;
+
 }
 header {
-  border : 1px dashed green;
+  /* border : 6px dashed green; */
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2.0em;
   font-family: 'Bungee Shade', cursive;
-  color: red;
+  color: blue;
+  padding : 10px
+
+}
+.maintance {
+font-size: 2.2em;
+color : white;
+padding-left: 200px;
+    font-family: 'Rokkitt', serif;
+    }
+#selfie {
+padding top: : 13px
 }
 
 #caption {
-color:white;
-font-family: helvitca;
+color:	#FF4500;
+font-family: fantasy ;
+font-size:30px
 }
 
-table {
-color:white;
-font-family: helvitca;
-width: 100%;
-
-}
 #tableBox {
 text-align: center;
-padding: 10px
+padding: 100px
 
 }
 .about  {
@@ -46,18 +54,28 @@ padding: 10px
   font-family: 'Shadows Into Light', cursive;
   color: hotpink;
   text-align: center;
+  padding-bottom: 0px;
+  padding-top:  0px;
 }
 /* past expierience block */
-#experience {
-text-align: center;
+#name {
+text-align: right;
 font-family: fantasy;
-color: gold;
-padding-bottom: 100px
+color: #FF6347;
+padding-left: 250px;
+padding top: : 115px;
+text-shadow: 2px 5px 2px orange;
 }
 #EmployementHistory {
   font-weight: lighter;
   font-size: 10em;
-  margin-bottom: 10px
+  margin-bottom:0px
+
+}
+#Links {
+  padding-top: 30px;
+  padding-left: 30px;
+
 }
 
 #portfolio {
@@ -65,28 +83,102 @@ font-size: 2em;
 text-align: center;
 
 }
+.sidebox{
+width: 1000px;
+height:100px;
+margin-right: 100px;
+}
 
-hobbies {
-align-items: center;
-border: 2px dashed green;
-color: blue; 
+.box{
+	width:1200px;
+	height:300px;
+color: white;
+padding-top:10px;
+padding-left:10px;
+  margin-right:100px;
+
+  font-size: 50px;
+
+
+}
+
+.leftpane{
+  width:400px;
+  height: 10px;
+  background-color: gold;
+
+}
+
+}
+
+.blue{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color:royalblue;
+	background: blue;
+  font-size: 1.9em;
+  font-family: 'Amatic SC', cursive;
+}
+.orange{
+  font-family: 'Rokkitt', serif;
+
+  background-color: orange;
 }
 
 
-
-a:link {
-color: red;
-}
 /* visited link */
 a:visited {
-  color: #46D246;
+  color: white;
 }
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color:white ;
 }
 
 /* selected link */
 a:active {
-  color: #46D246;
+  color: white;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.tags {
+color:white;
+}
+.Links {
+  color: #A2CA4A;
+  font-family: "Times New Roman", Times, serif;
+  }
+}
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
